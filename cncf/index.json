@@ -1,0 +1,25 @@
+{
+    "title": "CNCF SSC WG Demo",
+    "description": "Learn how to build and customize your application image using Cloud Native Buildpacks",
+    "difficulty": "Beginner",
+    "time": "30",
+    "details": {
+      "steps": [
+        {
+          "title": "Build an App",
+          "text": "build-an-app.md"
+        }
+      ],
+      "intro": {
+        "courseData": "background.sh",
+        "code": "foreground.sh",
+        "text": "intro.md"
+      }
+    },
+    "environment": {
+      "uilayout": "terminal"
+    },
+    "backend": {
+      "imageid": "ubuntu:2004"
+    }
+  }
